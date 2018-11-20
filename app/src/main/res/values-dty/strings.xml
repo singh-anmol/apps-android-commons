@@ -28,7 +28,6 @@
   <string name="login_failed_username">लगइन अद्दाइ असमर्थ - कृपया तमरो प्रयोगकर्ता नाउँ हेरऽ</string>
   <string name="login_failed_password">लगइन अद्दाइ असमर्थ - कृपया तमरो पासवर्ड जाँचऽ</string>
   <string name="categories_activity_title">श्रेणीइन</string>
-  <string name="preference_tracking">उपयोग प्रतिवेदनअन</string>
   <string name="title_activity_settings">मिलानअन</string>
   <string name="menu_about">बारेमी</string>
   <string name="title_activity_about">बारेमी</string>
@@ -47,11 +46,12 @@
   <string name="ok">हुन्छ</string>
   <string name="title_activity_nearby">नज्यूकाऽ ठउरअन</string>
   <string name="warning">चेतावनी</string>
-  <string name="file_exists">यो फाइल कमन्स मी पैली बठेइ छ। तम पक्का छऽ कि तम ऐतिर जान चाहन्छऽ?</string>
+  <string name="upload_image_problem_duplicate">यो फाइल कमन्स मी पैली बठेइ छ। तम पक्का छऽ कि तम ऐतिर जान चाहन्छऽ?</string>
   <string name="yes">हो</string>
   <string name="no">नाइँ</string>
   <string name="media_detail_title">शीर्षक</string>
   <string name="media_detail_media_title">मिडियाऽ शीर्षक</string>
   <string name="media_detail_description">बेलिविस्तार</string>
   <string name="become_a_tester_title">बिटा परीक्षक बनऽ</string>
+  <string name="nearby_location_not_available">स्थान उपलब्ध आथिन।</string>
 </resources>

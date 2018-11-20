@@ -1,9 +1,8 @@
 package fr.free.nrw.commons
 
-import org.hamcrest.CoreMatchers.`is` as _is
-
 import org.junit.Assert
 import org.junit.Test
+import org.hamcrest.CoreMatchers.`is` as _is
 
 class UtilsTest {
     @Test fun `strip nothing from non-localized string`() {
@@ -28,5 +27,9 @@ class UtilsTest {
 
     @Test fun `capitalize - pass Japanase characters`() {
         Assert.assertThat(Utils.capitalize("こんにちは"), _is("こんにちは"))
+    }
+
+    @Test fun `capitalize does not fail on empty string`() {
+        Assert.assertThat(Utils.capitalize(""), _is(""))
     }
 }
